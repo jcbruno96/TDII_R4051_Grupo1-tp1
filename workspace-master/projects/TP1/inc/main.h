@@ -48,7 +48,7 @@ extern "C" {
 /*==================[macros]=================================================*/
 
 /** delay in milliseconds */
-#define DELAY_MS 250
+#define DELAY_MS 200
 
 /** led number to toggle */
 #define LED 0
