@@ -1,0 +1,9 @@
+GeneratorModel for yakindu::c {
+	statechart blinkyboton {			
+		feature Outlet {
+				targetProject = "workspace"
+				targetFolder = "/projects/blinkyBoton/src"
+				libraryTargetFolder = "/projects/blinkyBoton/src"
+			}
+	}
+}

@@ -1,0 +1,9 @@
+GeneratorModel for yakindu::c {
+	statechart blinkyfsm {			
+		feature Outlet {
+				targetProject = "workspace"
+				targetFolder = "/projects/blinkyfsm/src"
+				libraryTargetFolder = "/projects/blinkyfsm/src"
+			}
+	}
+}

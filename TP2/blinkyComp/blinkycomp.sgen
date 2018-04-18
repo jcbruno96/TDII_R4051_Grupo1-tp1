@@ -1,0 +1,9 @@
+GeneratorModel for yakindu::c {
+	statechart blinkyCompuesto {			
+		feature Outlet {
+				targetProject = "workspace"
+				targetFolder = "/projects/blinkyComp/src"
+				libraryTargetFolder = "/projects/blinkyComp/src"
+			}
+	}
+}
