@@ -1,8 +1,0 @@
-#ifndef PROJECTS_FREERTOS_SIMON_INC_PULSADORES_H_
-#define PROJECTS_FREERTOS_SIMON_INC_PULSADORES_H_
-
-#define NPULSADORES 4
-void InitPulsadores(void);
-int LeerPulsador(int npulsador);
-
-#endif /* PROJECTS_FREERTOS_SIMON_INC_PULSADORES_H_ */

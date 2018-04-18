@@ -1,7 +1,7 @@
-/* Copyright 2016, Pablo Ridolfi
+/* Copyright 2015, Pablo Ridolfi
  * All rights reserved.
  *
- * This file is part of Workspace.
+ * This file is part of lpc1769_template.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -34,7 +34,7 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-/** \addtogroup blink Bare-metal blink example
+/** \addtogroup rtos_blink FreeRTOS blink example
  ** @{ */
 
 /*==================[inclusions]=============================================*/
@@ -46,12 +46,6 @@ extern "C" {
 #endif
 
 /*==================[macros]=================================================*/
-
-/** delay in milliseconds */
-#define DELAY_MS 500
-
-/** led number to toggle */
-#define LED 0
 
 /*==================[typedef]================================================*/
 
