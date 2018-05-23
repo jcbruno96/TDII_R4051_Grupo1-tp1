@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sgraph="http://www.yakindu.org/sct/sgraph/2.0.0">
-  <sgraph:Statechart xmi:id="_otEz0ENkEei3D-ALAToSVA" specification="interface:&#xA;// Define events and&#xA;// and variables here&#xA;&#xA;&#xA;operation opLed(Led:integer,State:boolean)&#xA;&#xA;internal:&#xA;event evPausar&#xA;event evReanudar&#xA;&#xA;&#xA;var vaInvertido:boolean=false&#xA;&#xA;event evTiempo&#xA;&#x9;every 700ms / raise evTiempo&#xA;&#xA;const cLEDr:integer = 1&#xA;const cLEDg:integer = 2&#xA;const cLEDb:integer = 3&#xA;&#xA;const ON:boolean=true&#xA;const OFF:boolean=false&#xA;&#xA;&#xA;" name="TP2 - Ej3">
+  <sgraph:Statechart xmi:id="_otEz0ENkEei3D-ALAToSVA" specification="interface:&#xA;// Define events and&#xA;// and variables here&#xA;&#xA;&#xA;operation opLed(Led:integer,State:boolean)&#xA;&#xA;internal:&#xA;event evPausar&#xA;event evReanudar&#xA;&#xA;&#xA;var vaInvertido:boolean=false&#xA;&#xA;event evTiempo&#xA;&#x9;every 700ms / raise evTiempo&#xA;&#xA;const cLEDr:integer = 1&#xA;const cLEDg:integer = 2&#xA;const cLEDb:integer = 3&#xA;&#xA;const ON:boolean=true&#xA;const OFF:boolean=false&#xA;&#xA;&#xA;" name="TP2_Ej3">
     <regions xmi:id="__fu6A0NpEei3D-ALAToSVA" name="main region">
       <vertices xsi:type="sgraph:State" xmi:id="__fx9WENpEei3D-ALAToSVA" name="Secuencia" incomingTransitions="_idcaEENqEei3D-ALAToSVA">
         <outgoingTransitions xmi:id="_VrHXEENqEei3D-ALAToSVA" specification="evPausar" target="_Og8PYENqEei3D-ALAToSVA"/>
@@ -205,7 +205,7 @@
           <styles xsi:type="notation:ShapeStyle" xmi:id="__fwvOENpEei3D-ALAToSVA" fontName="Verdana" fillColor="15981773" lineColor="12632256"/>
           <styles xsi:type="notation:FontStyle" xmi:id="__fwvOUNpEei3D-ALAToSVA"/>
           <styles xsi:type="notation:BooleanValueStyle" xmi:id="__fwvOkNpEei3D-ALAToSVA" name="isHorizontal" booleanValue="true"/>
-          <layoutConstraint xsi:type="notation:Bounds" xmi:id="__fwvO0NpEei3D-ALAToSVA" x="543" y="-24" width="824" height="727"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="__fwvO0NpEei3D-ALAToSVA" x="546" y="-29" width="824" height="727"/>
         </children>
         <children xmi:id="_Og9dgENqEei3D-ALAToSVA" type="State" element="_Og8PYENqEei3D-ALAToSVA">
           <children xsi:type="notation:DecorationNode" xmi:id="_Og9dhENqEei3D-ALAToSVA" type="StateName">
@@ -249,7 +249,7 @@
       <children xsi:type="notation:Shape" xmi:id="_otMvo0NkEei3D-ALAToSVA" type="StatechartTextExpression" fontName="Verdana" lineColor="4210752">
         <layoutConstraint xsi:type="notation:Bounds" xmi:id="_otMvpENkEei3D-ALAToSVA"/>
       </children>
-      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_otNWsENkEei3D-ALAToSVA" x="-168" y="-6" width="341" height="789"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_otNWsENkEei3D-ALAToSVA" x="-168" y="-6" width="373" height="789"/>
     </children>
     <styles xsi:type="notation:DiagramStyle" xmi:id="_otGB80NkEei3D-ALAToSVA"/>
     <edges xmi:id="__gl1uENpEei3D-ALAToSVA" type="Transition" element="__gmcs0NpEei3D-ALAToSVA" source="__gkAeENpEei3D-ALAToSVA" target="__ga2iENpEei3D-ALAToSVA">
