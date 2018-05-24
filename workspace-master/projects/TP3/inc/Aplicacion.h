@@ -8,7 +8,6 @@
 #ifndef WORKSPACE_MASTER_PROJECTS_TP3_INC_APLICACION_H_
 #define WORKSPACE_MASTER_PROJECTS_TP3_INC_APLICACION_H_
 
-#include "board.h"
 #include "FreeRTOS.h"
 #include "FreeRTOSConfig.h"
 #include "task.h"

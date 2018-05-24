@@ -1,9 +1,0 @@
-GeneratorModel for yakindu::c {
-	statechart Molinete {			
-		feature Outlet {
-				targetProject = "TDII_R4051_Grupo1-tp1"
-				targetFolder = "workspace-master/projects/TP3"
-				libraryTargetFolder = "workspace-master/projects/TP3"
-			}
-	}
-}
