@@ -8,7 +8,7 @@
 
 void molineteIface_opBloquear(const Molinete* handle, const sc_boolean Estado)
 {
-	Chip_GPIO_SetPinOutHigh(GPIO,PUERTO_LED,PIN_LED);
+	Chip_GPIO_SetPinOutHigh(GPIO,PUERTO_LED,PIN_LED); //Bloquear
 }
 
 void molineteIface_opDesbloquear(const Molinete* handle, const sc_boolean Estado)
